@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <title>my portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+<h1 class="heading">Welcome to my portfolio</h1>        
+<a href="">
+    <button class="button">About</button>
+</a>
+<a href="">
+    <button class="button">Projects</button>
+</a>
+<a href="">     
+    <button class="button">Skills</button>
+</a>
+<a href="">
+    <button class="button">Contact</button>
+</a>
+        </header>
+
+        <main>
+            <section id="About">
+<h1 class="heading">About Me</h1>
+<img src="my photo 1.jpg" alt="my photo" width="200" height="200">
+<h2><em>Akhil Ganji</em></h2>
+        <p><em>This is my portfolio</em></p>
+        <p>I am graduated(bcom computer application) from <em>mahatma gandhi university,nalgonda</em></p>
+            </section>
+            <section id="My Projects">
+                <h1 class="heading">My Projects</h1>
+                <p>Here are some of my projects:</p>
+                <table border="1">
+                    <tr>
+                        <th>Project Name</th>
+                        <th>Description</th>
+                    </tr>
+                    <tr>
+                        <td>portfolio website</td>
+                        <td>A simple portfolio website built with HTML and CSS</td>
+                    </tr>
+                    <tr>
+                        <td>python simple calculator</td>
+                        <td>A basic calculator built with Python</td>
+                    </tr>
+                </table>
+            </section>
+            <section id="My Skills">
+                <h1> My Skills</h1>
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                </ol>
+            </section>
+            <section id="Contact">
+                <h1>Contact Me</h1>
+                <p>Feel free to get in touch with me using the form below:</p>
+                <form>
+            <label for="Name">Name:</label>        
+            <input type="text"id="Name" name="Name" required>   
+        
+        <br>
+        <label for="Email">Email:</label>   
+        <input type="email" id="Email" name="Email" required>
+        <br>
+        <b>choose your gender:</b>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <br>
+        <b>select your interests:</b>
+        <input type="checkbox" id="coding" name="interests" value="coding">
+        <label for="coding">coding</label>
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading">reading</label> 
+        <br>
+        <b>bio(upto 200 characters):</b>
+        <textarea id="Message" name="Message" required></textarea>
+        <br>         
+          <input type="submit" class="sub" value="Submit">
+          <input type="submit" class="sub" value="Reset">
+        </form>
+            </section>
+        </main>
+        <button class="top"> Top</button>
+        <footer>
+@2026 my portfolio
+        </footer>
+    </body>
+</html>  
